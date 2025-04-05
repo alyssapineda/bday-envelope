@@ -9,27 +9,31 @@ interface Photo {
 
 const photos: Photo[] = [
   {
-    url: "https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?auto=format&fit=crop&w=800&q=80",
-    caption: "Remember our first picnic? 🌸"
+    url: "/photos/us_picnic.png",
+    caption: "Remember this picnic? 🌸"
   },
   {
-    url: "https://images.unsplash.com/photo-1496062031456-07b8f162a322?auto=format&fit=crop&w=800&q=80",
-    caption: "That sunset was magical ✨"
+    url: "/photos/us_matcha_bowl.png",
+    caption: "Thank you for joining me at the matcha bowl painting event 🍵 "
   },
   {
-    url: "https://images.unsplash.com/photo-1543269664-7eef42226a21?auto=format&fit=crop&w=800&q=80",
-    caption: "Coffee dates with you ☕️"
+    url: "/photos/us_museum.png",
+    caption: "I want more museum dates with you 🖼️ Even though this was largely something I like to do, I hope you still enjoyed"
+  }
+  {
+    url: "/photos/us_portrait.png",
+    caption: "Not exactly a real photos of us, but I can imagine us doing this together someday"
   }
 ];
 
-const letter = `Dear Love,
+const letter = `Happy Birthday, Honey!
 
-Words can't express how grateful I am to have you in my life. Every moment we spend together fills my heart with joy and makes me fall in love with you all over again.
+I am grateful to have you in my life. Although we are apart right now, I want you to know that you are loved and appreciated. I cherish moments we have shared during your last visit as well as our virtual calls.
+I hope to make more memories with you in the future, and I look forward to our next adventure together.
+Enjoy your birthday to the fullest with your family and friends.
 
-You make my world brighter just by being in it.
-
-Forever yours,
-Me 💕`;
+Yours truly,
+Alyssa 💕`;
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
