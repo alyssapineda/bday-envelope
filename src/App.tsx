@@ -19,7 +19,7 @@ const photos: Photo[] = [
   {
     url: "/photos/us_museum.png",
     caption: "I want more museum dates with you 🖼️ Even though this was largely something I like to do, I hope you still enjoyed"
-  }
+  },
   {
     url: "/photos/us_portrait.png",
     caption: "Not exactly a real photos of us, but I can imagine us doing this together someday"
